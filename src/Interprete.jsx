@@ -4,8 +4,8 @@
 // import './App.css'
 import React from 'react'
 
-function Interprete({ actor }) {
-  const { nombre, biografia, imagen } = actor
+function Interprete({ actor, nota10}) { //TODO: Mirar lo del nombre en rojo mediante nota10
+  const { nombre, biografia, imagen,} = actor
   const resumen = biografia
 
 

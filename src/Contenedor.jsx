@@ -8,7 +8,7 @@ function Contenedor({children}) {
 
   return (
     <>
-    <div>
+    <div className="grid-contenedor">
       {children}
     </div>   
     </>
